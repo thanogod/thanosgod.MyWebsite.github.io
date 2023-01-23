@@ -1,2 +1,2 @@
-# MyworkingCalculator.github.io
+# MyWebsite.github.io
 This is just a test not something serious :)

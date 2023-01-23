@@ -1,0 +1,139 @@
+*{
+    box-sizing: content-box;
+    
+}
+
+#Title-Center{
+    text-align: center;
+    color: red;
+}
+
+#Music-Center{
+  
+  position: relative;
+  top: 15px;
+  right: 6px;
+
+}
+#Wait{
+    position: relative;
+    
+    padding-left: 348px;
+    font-weight: bolder;
+    color: red;
+    font-size: 1,5625rem;
+    
+}
+#MusicIns{
+  position: relative;
+  top: 15px;
+  left: 158px;
+  padding-left: 12.5rem;
+}
+#hey{
+    position: relative;
+    left: 419px;
+  
+
+}
+.container{
+   
+    width: 64em;
+    height:  84.42534908700323vh;
+    padding-left: 24.875em;
+    padding-right: 24.875em;
+}
+#Tran{
+   
+    width: 12.25rem;
+    height:  auto;
+    border: 4px red solid ;
+    
+    
+}
+ul{
+    width: 12.5rem;
+    height: auto;
+    position: relative;
+    bottom: 33rem;
+    left: 52.625rem;
+    border: 4px red solid;
+    
+}
+
+#po{
+    position: relative;
+    left: 50px;
+}
+
+#Videopart{
+    position: relative;
+    bottom: 770px;
+    left: 211px;
+    width: 550px;
+    height: 25vh;
+    padding-left:30px ;
+}
+#Font-darker{
+    font-weight: 900;
+
+}
+.Bolder{
+    font-weight: 900;
+}
+main{
+   height:500px}
+footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 3rem;
+    right:8.3125rem;
+    
+}
+.copy-link {
+    --height: 36px;
+  
+    display: flex;
+    
+    max-width: 250px;
+
+    position: relative;
+    left: 436px;
+    top:18px;
+    
+  }
+  
+  .copy-link-input {
+    flex-grow: 1;
+    padding: 0 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    outline: none;
+  }
+  
+  .copy-link-input:hover {
+    background: #eeeeee;
+  }
+  
+  .copy-link-button {
+    flex-shrink: 0;
+    width: var(--height);
+    height: var(--height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dddddd;
+    color: #333333;
+    outline: none;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+  }
+  
+  .copy-link-button:hover {
+    background: #cccccc;
+  }
+.Everybody{
+    font-weight: 900;
+}

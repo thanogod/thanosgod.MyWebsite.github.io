@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="gr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+   <div class="container" > 
+<nav> <h1  class ="Center-Text" id="Title-Center">ΛΙΓΑ ΛΟΓΙΑ ΓΙΑ ΤΗΝ ΑΥΣΤΡΙΑ</h1>
+   <!--- <img src="download.png" alt="The Austria Flag">-->
+   <p style="text-align: center;">Η Αυστρία είναι μια χώρα που βρίσκεται στην Κεντρική Ευρώπη. Έχει πληθυσμό <span class="Bolder"> 9.000.000 κατοίκων.</span> Η Αυστρία είναι κυρίως γνωστή για τα εκπληκτικά αλπικά τοπία, την πλούσια ιστορία και τον πολιτισμό της και διάσημους συνθέτες όπως ο Μότσαρτ και ο Στράους. Η χώρα φιλοξενεί επίσης πολλά όμορφα μπαρόκ παλάτια και ιστορικά ορόσημα, όπως το παλάτι Schönbrunn και ο καθεδρικός ναός του Αγίου Στεφάνου. Η Αυστρία έχει γίνει επίσης δημοφιλής προορισμός για χειμερινά σπορ.Η χώρα είναι επίσης διάσημη για τις τοπικές ποικιλίες κρασιού και την παραδοσιακή της κουζίνα, όπως το σνίτσελ.</p></nav>
+   <header> 
+    <div class="Everybody"> <span id="po"> Traditional</span> <span id="Music-Center"> Music</span>
+    <span id="Wait"> MUSIC</span>
+    
+    <span id="hey">  Music</span> <span id="MusicIns">Instruments</span>
+
+
+
+
+
+
+
+</div>
+</header>
+<main>
+    
+<p id="Tran">Η Βιέννη υπήρξε σημαντικό κέντρο μουσικής καινοτομίας. Οι συνθέτες του 18ου και του 19ου αιώνα τραβήχτηκαν στην πόλη λόγω της αιγίδας των Αψβούργων και έκαναν τη <span id="Font-darker">Βιέννη  </span> την ευρωπαϊκή πρωτεύουσα της κλασικής μουσικής. <span class="Bolder">Ο Joseph Haydn,ο Wolfgang Amadeus Mozart,ο Ludwig van Beethoven,ο Franz Schubert και ο Johann Strauss II</span> ,μεταξύ άλλων, συνδέθηκαν με την πόλη, με τον Schubert να γεννήθηκε στη <span class="Bolder">Βιέννη</span> . Κατά την περίοδο του <span class="Bolder" title="Με τον όρο Μπαρόκ  αναφερόμαστε είτε στην ιστορική περίοδο 1600 - 1750 μ.Χ">μπαρόκ</span> , οι σλαβικές και ουγγρικές λαϊκές φόρμες επηρέασαν την αυστριακή μουσική. Η θέση της Βιέννης ξεκίνησε την άνοδό της ως πολιτιστικό κέντρο στις αρχές του 16ου αιώνα και επικεντρώθηκε σε όργανα όπως το <span class="Bolder">λαούτο</span> ,την <span class="Bolder">αρπα</span>  και το <span class="Bolder">ακορντεόν</span> .</p>
+<p id="In"><ul>
+
+
+
+    <li><span class="Bolder">Το Ακορντεόν:</span>  Ένα όργανο που παίζεται πιέζοντας τη φυσούνα και πατώντας τα κουμπιά, είναι ένα δημοφιλές όργανο στη λαϊκή και ποπ μουσική.
+       </li>
+
+    <li> <span class="Bolder">Άρπα:</span>  Έγχορδο όργανο που παίζεται μαδώντας τις χορδές με τα δάχτυλα. Χρησιμοποιείται συνήθως στην κλασική μουσική και αποτελεί σύμβολο της Αυστρίας για αιώνες.
+       </li>
+        
+    <li> <span class="Bolder"> Λαούτο:</span>  Έγχορδο όργανο που έχει σώμα σε σχήμα αχλαδιού και μακρύ λαιμό. Ήταν δημοφιλές τον 16ο αιώνα και χρησιμοποιήθηκε στην αυλική μουσική και τη μουσική δωματίου.
+        </li> 
+        
+    
+</ul></p>
+<video controls id="Videopart" src="indianmusic.mp4"></video>
+
+
+
+
+
+
+
+
+
+
+
+</main>
+<footer>Share it to others? 
+   
+
+</footer>
+<div class="copy-link"><input type="text" class="copy-link-input" value="https://www.youtube.com/" readonly>
+   <button type="button" class="copy-link-button">
+     <span class="material-icons">content_copy</span>
+   </button>
+ </div>
+
+
+
+
+
+
+</div>
+<script>
+document.querySelectorAll(".copy-link").forEach((copyLinkParent) => {
+  const inputField = copyLinkParent.querySelector(".copy-link-input");
+  const copyButton = copyLinkParent.querySelector(".copy-link-button");
+  const text = inputField.value;
+
+  inputField.addEventListener("focus", () => inputField.select());
+
+  copyButton.addEventListener("click", () => {
+    inputField.select();
+    navigator.clipboard.writeText(text);
+
+    inputField.value = "Copied!";
+    setTimeout(() => (inputField.value = text), 2000);
+  });
+});
+
+
+
+
+</script>
+<section></section>
+
+</body>
+</html>
